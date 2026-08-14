@@ -1,4 +1,4 @@
-# Creating Oneshot Hero Landing Pages 🚀
+# Creating Oneshot Hero Landing Pages
 
 An **Antigravity (AGY)** skill to plan, design, and build video-driven parallax hero landing pages using video scrubbing.
 
@@ -64,6 +64,14 @@ Once installed, you can invoke the skill via its slash command or by asking natu
 
 ---
 
-## 📄 License
+## 📄 Licensing & Disclaimer
 
-[MIT](LICENSE)
+This project is licensed under the [MIT License](LICENSE).
+
+Distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+> **Disclaimer:** This is not an official Google product.
+
+---
+
+Built with [Antigravity](https://antigravity.google/) and [Gemini 3.7 Flash](https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash).
