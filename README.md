@@ -16,31 +16,42 @@ An **Antigravity (AGY)** skill to plan, design, and build video-driven parallax 
 
 ## ⚡ Quickstart
 
-### 1. Install or Provide the Skill
+### 1. Install or Reference the Skill
 
-You can install the skill permanently or paste it into your chat:
-
-* **Option A: Add to your Antigravity skills directory**
+* **Option A: Install globally (all projects)**
   ```bash
-  mkdir -p ~/.gemini/skills/creating-oneshot-landing-pages
-  cp SKILL.md ~/.gemini/skills/creating-oneshot-landing-pages/
+  git clone https://github.com/nroadley/Creating-Oneshot-Hero-Landing-Pages.git ~/.gemini/config/skills/creating-oneshot-landing-pages
   ```
-  *(Or place `SKILL.md` in your workspace at `.agents/skills/creating-oneshot-landing-pages/`)*
 
-* **Option B: Copy & paste directly**
-  Copy the contents of [`SKILL.md`](SKILL.md) and paste it directly into your prompt along with your request.
+* **Option B: Install to your current workspace only**
+  Inside your project root:
+  ```bash
+  git clone https://github.com/nroadley/Creating-Oneshot-Hero-Landing-Pages.git .agents/skills/creating-oneshot-landing-pages
+  ```
+
+* **Option C: Run directly via chat URL (Zero install)**
+  Ask your agent to read the repository directly in your prompt:
+  > *"Read https://github.com/nroadley/Creating-Oneshot-Hero-Landing-Pages/blob/main/SKILL.md and build a landing page for Lumina acoustic guitars."*
 
 ---
 
 ### 2. Prompt Your Agent
 
-Give your agent a clear product or brand idea:
+Once installed, you can invoke the skill via its slash command or by asking naturally:
 
-> *"Build a launch landing page for Lumina — an acoustic guitar workshop handcrafting instruments from reclaimed Pacific Northwest cedar and redwood."*
+* **Using the Slash Command:**
+  ```text
+  /creating-oneshot-landing-pages <your prompt>
+  ```
+  *Example:*
+  ```text
+  /creating-oneshot-landing-pages Build a launch landing page for Lumina — an acoustic guitar workshop handcrafting instruments from reclaimed Pacific Northwest cedar.
+  ```
 
-> *"Create a hero page for Nomad Foils, a company that designs electric carbon-fiber hydrofoil boards for open-ocean riding."*
+* **Or Natural Prompts:**
+  > *"Create a hero landing page for Nomad Foils, a company designing electric carbon-fiber hydrofoil boards for open-ocean riding."*
 
-> *"Make a landing page for our small-batch ceramic studio based in Kyoto, showcasing wood-fired matcha bowls and handcrafted teaware."*
+  > *"Make a landing page for our small-batch ceramic studio based in Kyoto, showcasing wood-fired matcha bowls and handcrafted teaware."*
 
 ---
 
